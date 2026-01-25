@@ -53,7 +53,6 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 10px; */
   padding: 10px;
 }
 .contents .foods img {
@@ -62,8 +61,6 @@ body {
 }
 
 .contents {
-  /* display: flex;
-  flex-wrap: wrap; */
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 15px;
@@ -74,7 +71,6 @@ body {
 .foods {
   border: 1px solid #ccc;
   border-style: hidden;
-  /* width: 290px; */
 }
 
 .contents .foods h3 {
@@ -125,13 +121,10 @@ body {
   color: white;
   background-color: black;
   padding: 9px 16px;
-  /* height: 35px; */
-  /* transform: translateY(-10px); */
 }
 
 .links .one:hover {
   background-color: #0f0f0f;
-  /* padding: 10px 15px; */
 }
 
 .second-part h4 {
