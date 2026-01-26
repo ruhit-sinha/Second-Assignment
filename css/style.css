@@ -73,7 +73,7 @@ body {
 
 .contents {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
   /* justify-content: center; */
   /* row-gap: 35px; */
@@ -317,6 +317,9 @@ display: block; */
 
 @media (max-width: 1024px) {
   .contents {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
