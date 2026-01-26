@@ -67,8 +67,8 @@ body {
 }
 .contents .foods img {
   width: 100%;
+  height: 360px;
   object-fit: cover;
-  height: 450px;
 }
 
 .contents {
@@ -309,4 +309,14 @@ display: block; */
   /* .second-part .chef img {
     filter: grayscale(100%);
   } */
+
+  .container .foods img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contents {
+    grid-template-columns: auto auto;
+  }
 }
