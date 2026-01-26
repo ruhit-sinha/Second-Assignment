@@ -67,7 +67,8 @@ body {
 }
 .contents .foods img {
   width: 100%;
-  height: auto;
+  object-fit: cover;
+  height: 450px;
 }
 
 .contents {
