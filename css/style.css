@@ -225,8 +225,8 @@ display: block; */
   border: 1px solid #ccc;
   border-style: hidden;
   width: 400px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   padding-left: 20px;
   padding-top: 20px;
 }

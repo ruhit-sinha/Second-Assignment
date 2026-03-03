@@ -225,8 +225,10 @@
       <script>
         const element= ducument.querySelector("#menu-btn");
         element.addEventListner("click", function(event){
-          
+          const a= event.target;
+          alert('cc');
         })
+        console.log(a);
       </script>
   </body>
 </html>
